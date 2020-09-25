@@ -21,19 +21,27 @@ body {
 
 h1, h2, h3 {
 <<<<<<< HEAD
+<<<<<<< HEAD
   font-family: 'Roboto', sans-serif;
 =======
   font-family: 'Cinzel Decorative', cursive;
 >>>>>>> 80766df4c017b3218570138f64dfc3ec53ffefe1
+=======
+  font-family: 'Roboto', sans-serif;
+>>>>>>> d923fccd3d34f6989411d934333477a14f3b3285
   color: #2a2a2a;
 }
 
 p, input, li {
 <<<<<<< HEAD
+<<<<<<< HEAD
   font-family: 'Roboto', sans-serif;
 =======
   font-family: 'Roboto Condensed', sans-serif;
 >>>>>>> 80766df4c017b3218570138f64dfc3ec53ffefe1
+=======
+  font-family: 'Roboto', sans-serif;
+>>>>>>> d923fccd3d34f6989411d934333477a14f3b3285
   color: #2a2a2a;
 }
 
@@ -147,7 +155,11 @@ nav a, nav span {
 .footer {
   margin-top: 10px;
 <<<<<<< HEAD
+<<<<<<< HEAD
 }
 =======
 }
 >>>>>>> 80766df4c017b3218570138f64dfc3ec53ffefe1
+=======
+}
+>>>>>>> d923fccd3d34f6989411d934333477a14f3b3285
