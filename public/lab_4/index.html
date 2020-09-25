@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <title>Sulayman Sallah Lab 4</title>
+</head>
+
+<body>
+    <div class="wrapper">
+        <h1>Sulayman Sallah Lab 4</h1>
+        <div class="container">
+
+            <!-- Form -->
+            <form action="/api" method="post">
+                <ul class="flex-outer">
+
+                    <!-- First name field -->
+                    <li>
+                        <label for="fname">First Name: </label>
+                        <input id="fname" type="text" name="firstname" placeholder="Enter First Name"
+                            maxlength="140">
+                    </li>
+
+                    <!-- Last name field -->
+                    <li>
+                        <label for="lname">Last Name: </label>
+                        <input id="lname" type="text" name="lastname" placeholder="Enter Last Name" maxlength="140">
+                    </li>
+
+                    <!-- Email field -->
+                    <li>
+                        <label for="email">Email: </label>
+                        <input id="email" type="email" name="email" placeholder="Enter Email">
+                    </li>
+
+                    <!-- Phone field -->
+                    <li>
+                        <label for="phone">Phone: </label>
+                        <input id="phone" type="tel" name="phone" placeholder="Enter phone number">
+                    </li>
+
+                    <!-- Message textarea -->
+                    <li>
+                        <label for="message">Message: </label>
+                        <textarea id="message" type="text" name="message" placeholder="Enter message" rows="5"
+                            cols="33"></textarea>
+                    </li>
+
+                    <!-- Checkbox input -->
+                    <li> <p>Age: </p>
+                        <ul class="flex-inner">
+                            <li>
+                                <input id="age1" name="age1" type="checkbox" value="18-35"></input>
+                                <label for="age1">18-35</label>
+                            </li>
+
+                            <li>
+                                <input id="age2" name="age2" type="checkbox" value="35-50"></input>
+                                <label for="age2">35-50</label>
+                            </li>
+
+
+                            <li>
+                                <input id="age3" name="age3" type="checkbox" value="50-65"></input>
+                                <label for="age3">50-65</label>
+                            </li>
+                        </ul>
+                    </li>
+
+                    <li>
+                        <button type="submit" name="submit" id="submit">Submit</button>
+                    </li>
+                </ul>
+
+            </form>
+
+        </div>
+    </div>
+
+</body>
+
+</html>
