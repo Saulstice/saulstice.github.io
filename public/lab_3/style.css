@@ -20,12 +20,20 @@ body {
 /* || typography */
 
 h1, h2, h3 {
+<<<<<<< HEAD
   font-family: 'Roboto', sans-serif;
+=======
+  font-family: 'Cinzel Decorative', cursive;
+>>>>>>> 80766df4c017b3218570138f64dfc3ec53ffefe1
   color: #2a2a2a;
 }
 
 p, input, li {
+<<<<<<< HEAD
   font-family: 'Roboto', sans-serif;
+=======
+  font-family: 'Roboto Condensed', sans-serif;
+>>>>>>> 80766df4c017b3218570138f64dfc3ec53ffefe1
   color: #2a2a2a;
 }
 
@@ -138,4 +146,8 @@ nav a, nav span {
 
 .footer {
   margin-top: 10px;
+<<<<<<< HEAD
 }
+=======
+}
+>>>>>>> 80766df4c017b3218570138f64dfc3ec53ffefe1
